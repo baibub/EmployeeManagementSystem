@@ -1,0 +1,40 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0" version="26.0.2">
+  <diagram name="Page-1" id="_BGKxGGrdwYYnZQfYPtn">
+    <mxGraphModel dx="600" dy="329" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nVcHCXMPq8yCNrnFJwnh-1" value="&lt;ol&gt;&lt;li&gt;EmployeeID&lt;/li&gt;&lt;li&gt;FirstName&lt;/li&gt;&lt;li&gt;LastName&lt;/li&gt;&lt;li&gt;DateOfBirth&lt;/li&gt;&lt;li&gt;Gender&lt;/li&gt;&lt;li&gt;Address&lt;br&gt;&lt;/li&gt;&lt;li&gt;Manager&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="160" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="nVcHCXMPq8yCNrnFJwnh-2" value="Employee" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="40" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nVcHCXMPq8yCNrnFJwnh-4" value="Department" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="325" y="45" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nVcHCXMPq8yCNrnFJwnh-6" value="&lt;ol&gt;&lt;li&gt;DepartmentID&lt;/li&gt;&lt;li&gt;DepartmentName&lt;/li&gt;&lt;li&gt;ManagerID&lt;/li&gt;&lt;li&gt;CreatedOn&lt;/li&gt;&lt;li&gt;CreatedBy&lt;/li&gt;&lt;li&gt;LastUpdatedOn&lt;/li&gt;&lt;li&gt;LastUpdatedBy&lt;/li&gt;&lt;/ol&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="280" y="80" width="160" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="nVcHCXMPq8yCNrnFJwnh-7" value="&lt;ol&gt;&lt;li&gt;RoleID&lt;/li&gt;&lt;li&gt;RoleName&lt;/li&gt;&lt;li&gt;Description&lt;br&gt;&lt;/li&gt;&lt;li&gt;DepartmentID&lt;/li&gt;&lt;li&gt;CreatedOn&lt;/li&gt;&lt;li&gt;CreatedBy&lt;/li&gt;&lt;li&gt;LastUpdatedOn&lt;/li&gt;&lt;li&gt;LastUpdatedBy&lt;/li&gt;&lt;/ol&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="480" y="80" width="160" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="nVcHCXMPq8yCNrnFJwnh-8" value="Role" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="525" y="45" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nVcHCXMPq8yCNrnFJwnh-10" value="&lt;ol&gt;&lt;li&gt;SalaryID (PK)&lt;br&gt;&lt;/li&gt;&lt;li&gt;EmployeeID (FK)&lt;br&gt;&lt;/li&gt;&lt;li&gt;Amount (INT)&lt;/li&gt;&lt;li&gt;EffectiveDate (DATETIME)&lt;/li&gt;&lt;li&gt;CreatedOn (DATETIME)&lt;br&gt;&lt;/li&gt;&lt;li&gt;CreatedBy (VARCHAR)&lt;br&gt;&lt;/li&gt;&lt;li&gt;LastUpdatedOn (DATETIME)&lt;br&gt;&lt;/li&gt;&lt;li&gt;LastUpdatedBy (VARCHAR)&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="80" y="400" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="nVcHCXMPq8yCNrnFJwnh-11" value="Salary" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="350" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nVcHCXMPq8yCNrnFJwnh-12" value="&lt;ol&gt;&lt;li&gt;ProjectID (PK)&lt;br&gt;&lt;/li&gt;&lt;li&gt;ProjectName (FK)&lt;br&gt;&lt;/li&gt;&lt;li&gt;ProjectDescription (NVARCHAR)&lt;/li&gt;&lt;li&gt;StartDate (DATETIME)&lt;/li&gt;&lt;li&gt;EstimatedEndDate (DATETIME)&lt;br&gt;&lt;/li&gt;&lt;li&gt;ActualEndDate (DATETIME)&lt;br&gt;&lt;/li&gt;&lt;li&gt;LastUpdatedOn&lt;/li&gt;&lt;li&gt;LastUpdatedBy &lt;br&gt;&lt;/li&gt;&lt;/ol&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="320" y="400" width="200" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="nVcHCXMPq8yCNrnFJwnh-13" value="Project" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="350" width="60" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
